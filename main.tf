@@ -15,4 +15,4 @@ resource "azurerm_resource_group" "rg"{
     count = length(var.location)
     name = "rg-${var.location[count.index]}"
     location = var.location[count.index]
-}
+}# Practice: Pull Request workflow
